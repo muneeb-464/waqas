@@ -3,14 +3,62 @@ import { FaBriefcase, FaCalendarAlt } from 'react-icons/fa'
 
 const jobs = [
   {
+    role: 'Junior Developer',
+    company: 'Almaxi Center',
+    location: 'Pakistan',
+    date: '2015 – 2016',
+    bullets: [
+      'Worked as a Junior Developer, assisting in web application development and maintenance.',
+      'Collaborated with senior developers to implement new features and resolve technical issues.',
+      'Gained hands-on experience with frontend and backend development technologies.',
+    ],
+  },
+  {
+    role: 'Full Stack Developer',
+    company: 'HBL Bank',
+    location: 'Pakistan',
+    date: '2016 – 2018',
+    bullets: [
+      'Developed and maintained enterprise-level banking applications.',
+      'Worked on both frontend and backend systems to improve customer and internal banking services.',
+      'Collaborated with cross-functional teams to deliver secure and scalable solutions.',
+    ],
+  },
+  {
+    role: 'MERN Stack Developer',
+    company: 'Rescue 1122 Emergency Service',
+    location: 'Pakistan',
+    date: '2018 – Present',
+    bullets: [
+      'Designed and developed full-stack web applications using MongoDB, Express.js, React.js, and Node.js.',
+      'Built internal systems and dashboards to improve operational efficiency.',
+      'Implemented REST APIs, authentication systems, and database optimization strategies.',
+      'Maintained and enhanced critical emergency service applications.',
+    ],
+  },
+  {
     role: 'Teacher',
-    company: "Dean's Shiblee College",
+    company: "Virtual University of Pakistan",
     location: 'Pakistan',
     date: '2022 – Present',
     bullets: [
       'Teaching computer science and programming subjects to undergraduate students.',
-      'Developing structured curricula covering web development, algorithms, and software engineering fundamentals.',
+      'Developing structured curricula covering web development, algorithms, software engineering, and modern development practices.',
       'Mentoring students on academic and professional growth in the technology field.',
+      'Preparing students for real-world software development careers.',
+    ],
+  },
+  {
+    role: 'Programming Instructor',
+    company: 'Preply',
+    location: 'Remote',
+    date: '2022 – Present',
+    bullets: [
+      'Maintained a 5-star rating while teaching programming and web development.',
+      'Delivered more than 700+ hours of one-on-one lessons.',
+      'Successfully trained 15+ students with industry-level development skills.',
+      'Provided mentorship in MERN Stack, JavaScript, React.js, Node.js, Express.js, and MongoDB.',
+      'Helped students build portfolio projects and prepare for professional software development roles.',
     ],
   },
   {
@@ -24,7 +72,6 @@ const jobs = [
       'Improved bug detection efficiency by up to 80% through structured testing processes.',
     ],
   },
-
 ]
 
 function JobCard({ job, side }) {

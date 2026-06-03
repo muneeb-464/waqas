@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { SiGithub } from 'react-icons/si'
 import { HiArrowTopRightOnSquare } from 'react-icons/hi2'
 
 import project1 from '../assets/project-1.png'
@@ -9,17 +10,54 @@ import project3 from '../assets/Project-3.png'
 import project4 from '../assets/Project-4.png'
 import project5 from '../assets/Project-5.png'
 import project6 from '../assets/Project-6.png'
+import project7 from '../assets/Project-7.png'
+import project8 from '../assets/Project-8.png'
+import project9 from '../assets/Project-9.png'
+
+
+
 
 export const projects = [
+  {
+    title: 'Fiverr Keyword Research',
+    tagline: 'Data-Driven Keyword Tool for Fiverr Sellers',
+    description: "Fiverr sellers often guess at keywords, costing them search visibility. This automated tool applies a custom ranking formula to surface high-opportunity, low-competition keywords — giving freelancers a data-driven edge when optimizing their gigs. Built after identifying a gap in existing tools that don't account for Fiverr-specific search dynamics.",
+    tags: ['JavaScript', 'Node.js', 'Automation', 'Custom Ranking Algorithm'],
+    image: project9,
+    accent: '#E63946',
+    live: 'https://keyword-research-for-fiverr-t44w.vercel.app/',
+    github: 'https://github.com/muneeb-464/keyword-research',
+  },
+  {
+    title: 'Deal Flow',
+    tagline: 'Sales Pipeline & Deal Management Platform',
+    description: 'DealFlow is a modern sales pipeline and deal management platform built to help teams track, manage, and close deals efficiently. The platform provides real-time deal tracking, stage management, and team collaboration tools — giving sales professionals full visibility over their pipeline.',
+    tags: ['React.js', 'TailwindCSS', 'Firebase', 'Vercel'],
+    image: project8,
+    accent: '#E63946',
+    live: 'https://dealflow-v1.vercel.app',
+    github: 'https://github.com/muneeb-464/Dealflow',
+  },
    {
-    title: 'Displine Dashboard',
+    title: 'Data Vault',
+    tagline: 'User Categories Data Management System',
+    description: 'Data Vault is a user categories data management system designed to securely store and manage user information based on specific categories. The platform emphasizes data privacy and security, ensuring that sensitive user data is protected while providing efficient tools for categorization and retrieval.',
+    tags: ['React.js', 'TypeScript', 'TailwindCSS', 'Supabase' ,'Google Auth'],
+    image: project7,
+    accent: '#E63946',
+    live: 'https://data-vault-drab.vercel.app/',
+    github: 'https://github.com/muneeb-464/Data-Vault',
+  },
+
+   {
+    title: 'DisplineOS',
     tagline: 'User Maintenance and Daily Goals with Security and Privacy',
     description: 'Displine is a comprehensive user maintenance and daily goals dashboard designed to help individuals stay organized, motivated, and on track with their personal and professional objectives. The platform emphasizes security and privacy, ensuring that users can manage their tasks and goals with confidence.',
     tags: ['React', 'TypeScript', 'Node.js', 'TailwindCSS', 'MongoDB'],
     image: project6,
-    accent: '#3B82F6',
+    accent: '#E63946',
     live: 'https://displineos-v1.vercel.app/',
-    github: '#',
+    github: 'https://github.com/muneeb-464/Displineos-V1',
   },
   {
     title: 'Travel & Chalet Booking',
@@ -27,7 +65,7 @@ export const projects = [
     description: 'Elite Alps operates in the luxury travel and hospitality industry, offering premium chalet rentals, concierge services, and curated alpine experiences across top destinations like the French Alps. ',
     tags: ['Next.js', 'TypeScript', 'TailwindCSS', 'Supabase'],
     image: project1,
-    accent: '#3B82F6',
+    accent: '#E63946',
     live: 'https://elitealps.com/',
     github: '#',
   },
@@ -37,7 +75,7 @@ export const projects = [
     description: 'This App represents a modern media production portfolio, where clients can explore previous work in photography and videography. It showcases high-quality visual projects, helping clients understand the brand’s creative capabilities and style.',
     tags: ['React', 'TailwindCSS', 'Vercel'],
     image: project2,
-    accent: '#3B82F6',
+    accent: '#E63946',
     live: 'https://courchevelmedia.com/',
     github: '#',
   },
@@ -47,7 +85,7 @@ export const projects = [
     description: 'An advanced video automation and project management suite designed for content creators and remote teams. The platform utilizes AI-driven logic to automatically prioritize video production tasks, suggest realistic deadlines, and identify workflow bottlenecks.',
     tags: ['React.js', 'Firebase', 'Strip', 'TailwindCSS', 'Cloud Functions'],
     image: project4,
-    accent: '#3B82F6',
+    accent: '#E63946',
     live: 'https://videospark.site/',
     github: '#',
   },
@@ -57,18 +95,19 @@ export const projects = [
     description: 'A comprehensive cleaning service ecosystem that allows users to pre-book specialized sessions with transparent, real-time service charge calculation. The platform provides a highly customized user experience where service costs are dynamically generated based on house size and specific requirements.',
     tags: ['React.js', 'TailwindCSS', 'MaterialUI' , "Netlify"],
     image: project3,
-    accent: '#3B82F6',
+    accent: '#E63946',
     live: '#',
     github: '#',
   },
  
+
   {
     title: 'Real Estate Tech',
     tagline: 'Contran Realtor Pro',
     description: 'A specialized CRM designed for real estate professionals to securely capture and manage client information during open house events. The platform emphasizes data privacy and security, ensuring that sensitive client details are protected while providing tools for efficient lead management and follow-up.',
     tags: ['React', 'Firebase', 'Tailwind', 'Node.js'],
     image: project5,
-    accent: '#3B82F6',
+    accent: '#E63946',
     live: 'https://contranrealtor.net/',
     github: 'https://github.com/muneeb-464/Con-tran-final',
   },
@@ -82,7 +121,6 @@ const card = {
 }
 
 export function ProjectCard({ p }) {
-  const [expanded, setExpanded] = useState(false)
   const [tilt, setTilt] = useState({ x: 0, y: 0 })
   const [gloss, setGloss] = useState({ x: 50, y: 50 })
 
@@ -106,18 +144,18 @@ export function ProjectCard({ p }) {
       style={{ perspective: '1000px' }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className="transition-[opacity,filter] duration-300 group-hover/cards:opacity-40 group-hover/cards:blur-[3px] hover:!opacity-100 hover:!blur-none"
+      className="transition-[opacity,filter] duration-300 group-hover/cards:opacity-40 group-hover/cards:blur-[3px] hover:!opacity-100 hover:!blur-none h-full"
     >
       <div
         className="
           group relative bg-[rgba(18,18,18,0.85)] border border-white/8 rounded-3xl overflow-hidden
-          backdrop-blur-md flex flex-col
-          hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(59,130,246,0.18)]
+          backdrop-blur-md flex flex-col h-full
+          hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(230,57,70,0.18)]
           before:content-[''] before:absolute before:top-0 before:right-0 before:w-56 before:h-56
-          before:bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.22),transparent_65%)]
+          before:bg-[radial-gradient(circle_at_top_right,rgba(230,57,70,0.22),transparent_65%)]
           before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:pointer-events-none before:z-10
           after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-56 after:h-56
-          after:bg-[radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.22),transparent_65%)]
+          after:bg-[radial-gradient(circle_at_bottom_left,rgba(230,57,70,0.22),transparent_65%)]
           after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500 after:pointer-events-none after:z-10
         "
         style={{
@@ -145,16 +183,8 @@ export function ProjectCard({ p }) {
         <div className="relative z-10 p-6 flex-1 flex flex-col gap-3">
           <h3 className="text-xl font-bold text-ink m-0 tracking-[-0.01em]">{p.title}</h3>
           <p className="text-[13px] font-semibold m-0 ruby-grad">{p.tagline}</p>
-          <div className="flex-1">
-            <p className={`text-sm text-gray-500 leading-[1.7] m-0 transition-all duration-300 ${expanded ? '' : 'line-clamp-3'}`}>
-              {p.description}
-            </p>
-            <button
-              onClick={() => setExpanded(prev => !prev)}
-              className="mt-1 text-[13px] font-bold text-ruby hover:text-ruby/80 transition-colors duration-200"
-            >
-              {expanded ? 'See less ↑' : 'See more ↓'}
-            </button>
+          <div className="flex-1 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            <p className="text-sm text-gray-500 leading-[1.7] m-0">{p.description}</p>
           </div>
 
           {/* Tags — sliding fill on hover */}
@@ -178,6 +208,13 @@ export function ProjectCard({ p }) {
             >
               <HiArrowTopRightOnSquare className="text-sm" />
               Live Demo
+            </a>
+            <a
+              href={p.github} target="_blank" rel="noopener noreferrer"
+              className="flex-1 py-[10px] bg-white/5 text-ink text-[13px] font-semibold rounded-lg border border-white/12 flex items-center justify-center gap-1.5 transition-all duration-200 hover:border-white/25 hover:bg-white/8"
+            >
+              <SiGithub className="text-sm" />
+              GitHub
             </a>
           </div>
         </div>
@@ -216,7 +253,7 @@ export default function Projects() {
         {/* Top 3 cards */}
         <motion.div
           variants={container} initial="hidden" whileInView="show" viewport={{ once: true }}
-          className="grid gap-6 items-start group/cards"
+          className="grid gap-6 group/cards"
           style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))' }}
         >
           {featured.map((p) => <ProjectCard key={p.title} p={p} />)}

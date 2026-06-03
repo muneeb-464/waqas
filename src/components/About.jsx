@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import profilePhoto from '../assets/profil.avif'
+import profilePhoto from '../assets/profile.jpg'
 import { useState, useEffect, useRef } from 'react'
 
 const aboutText =
@@ -118,7 +118,7 @@ export default function About() {
                   : '0 32px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.06)',
               }}
             >
-              <img src={profilePhoto} alt="Abdul Basit" className="w-full h-full object-cover" />
+              <img src={profilePhoto} alt="Waseem Sajjad" className="w-full h-full object-cover" />
 
               {/* White overlay — fades out on hover */}
               <div
