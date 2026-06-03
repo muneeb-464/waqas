@@ -34,11 +34,11 @@ export default function Footer() {
           <div>
             <p className="text-[11px] font-semibold text-gray-600 uppercase tracking-[0.1em] mb-5 mt-0">Connect</p>
             <div className="flex flex-col gap-2.5">
-              <a href="mailto:ahsinsabir465@gmail.com" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
-                ahsinsabir465@gmail.com
+              <a href="mailto:mwaseeemsajjad@gmail.com" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
+                mwaseeemsajjad@gmail.com
               </a>
-              <a href="tel:+923097208805" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
-                0309 7208805
+              <a href="tel:+923064398868" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
+                0306-4398868
               </a>
             </div>
           </div>
