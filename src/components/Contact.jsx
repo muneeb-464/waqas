@@ -4,7 +4,7 @@ import { HiEnvelope, HiPhone, HiMapPin } from 'react-icons/hi2'
 
 const directContact = [
   { icon: HiEnvelope, label: 'Email',    value: 'ahsinsabir465@gmail.com', href: 'mailto:ahsinsabir465@gmail.com' },
-  { icon: HiPhone,    label: 'Phone',    value: '0309 7208805',            href: 'tel:+923097208805'              },
+  { icon: HiPhone,    label: 'Phone',    value: '0309 7208805',            href: 'tel:+923064398868'              },
   { icon: HiMapPin,   label: 'Location', value: 'Faisalabad, Pakistan',    href: null                             },
 ]
 

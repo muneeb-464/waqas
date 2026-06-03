@@ -47,7 +47,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/6 pt-7 flex justify-between items-center flex-wrap gap-3">
-          <span className="text-[13px] text-gray-700">© 2026 Ahsin Sabir. All rights reserved.</span>
+          <span className="text-[13px] text-gray-700">© 2026 Wassem Sajad. All rights reserved.</span>
           <span className="text-[13px] text-gray-700 flex items-center gap-1">
             Made with <span className="text-ruby">♥</span> in Pakistan
           </span>

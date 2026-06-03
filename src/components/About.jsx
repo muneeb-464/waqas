@@ -3,7 +3,7 @@ import profilePhoto from '../assets/profil.avif'
 import { useState, useEffect, useRef } from 'react'
 
 const aboutText =
-  "I'm Ahsin Sabir, a Full-Stack Developer and Computer Science Teacher with a passion for building high-performance web applications and educating the next generation of developers. I teach at Dean's Shiblee College, where I mentor students in programming, web development, and software engineering fundamentals. My technical stack spans React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, Firebase, and Tailwind CSS — always focused on clean architecture, performance, and exceptional user experience."
+  "I'm Waseem Sajjad, a Full-Stack Developer and Computer Science Teacher with a passion for building high-performance web applications and educating the next generation of developers. I teach at Dean's Shiblee College, where I mentor students in programming, web development, and software engineering fundamentals. My technical stack spans React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, Firebase, and Tailwind CSS — always focused on clean architecture, performance, and exceptional user experience."
 
 const stats = [
   { value: '5+',  label: 'Years Experience' },

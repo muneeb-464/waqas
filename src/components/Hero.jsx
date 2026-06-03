@@ -4,7 +4,7 @@ import resumePdf from '../assets/Resume.docx.pdf'
 
 const codeLines = [
   { tokens: [{ t: 'const ', c: '#C084FC' }, { t: 'developer', c: '#E3E2E2' }, { t: ' = {', c: '#E3E2E2' }] },
-  { tokens: [{ t: '  name', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: '"Ahsin Sabir"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
+  { tokens: [{ t: '  name', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: '"Wassem Sajjad"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
   { tokens: [{ t: '  focus', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: '"FullStack Mastery"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
   { tokens: [{ t: '  skills', c: '#60A5FA' }, { t: ': [', c: '#E3E2E2' }] },
   { tokens: [{ t: '    ', c: '#E3E2E2' }, { t: '"React.js"', c: '#86EFAC' }, { t: ', ', c: '#E3E2E2' }, { t: '"Next.js"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
@@ -70,7 +70,7 @@ export default function Hero() {
               variants={fadeUp}
               className="text-base text-gray-400 leading-[1.7] m-0 max-w-[460px]"
             >
-              I'm <strong className="text-ink">Ahsin Sabir</strong>, a professional{' '}
+              I'm <strong className="text-ink">Wassem Sajjad</strong>, a professional{' '}
 
               <span className="inline-block align-bottom">
                 <motion.span
@@ -136,7 +136,7 @@ export default function Hero() {
                 <span className="w-3 h-3 rounded-full bg-[#FF5F57]" />
                 <span className="w-3 h-3 rounded-full bg-[#874242]" />
                 <span className="w-3 h-3 rounded-full bg-[#442E2E]" />
-                <span className="text-xs text-gray-600 ml-2">dev/Ahsin.ts</span>
+                <span className="text-xs text-gray-600 ml-2">dev/Wassem.ts</span>
               </div>
 
               {/* Code */}
