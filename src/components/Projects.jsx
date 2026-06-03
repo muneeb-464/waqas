@@ -10,8 +10,8 @@ import project4 from '../assets/Project-4.png'
 import project5 from '../assets/Project-5.png'
 import project6 from '../assets/Project-6.png'
 import project7 from '../assets/Project-7.png'
-import project8 from '../assets/Project-8.png'
-import project9 from '../assets/Project-9.png'
+import project8 from '../assets/project-8.png'
+import project9 from '../assets/project-9.png'
 
 
 
