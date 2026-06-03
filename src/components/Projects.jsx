@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { SiGithub } from 'react-icons/si'
 import { HiArrowTopRightOnSquare } from 'react-icons/hi2'
 
 import project1 from '../assets/project-1.png'
@@ -150,12 +149,12 @@ export function ProjectCard({ p }) {
         className="
           group relative bg-[rgba(18,18,18,0.85)] border border-white/8 rounded-3xl overflow-hidden
           backdrop-blur-md flex flex-col h-full
-          hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(230,57,70,0.18)]
+          hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(59,130,246,0.18)]
           before:content-[''] before:absolute before:top-0 before:right-0 before:w-56 before:h-56
-          before:bg-[radial-gradient(circle_at_top_right,rgba(230,57,70,0.22),transparent_65%)]
+          before:bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.22),transparent_65%)]
           before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:pointer-events-none before:z-10
           after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-56 after:h-56
-          after:bg-[radial-gradient(circle_at_bottom_left,rgba(230,57,70,0.22),transparent_65%)]
+          after:bg-[radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.22),transparent_65%)]
           after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500 after:pointer-events-none after:z-10
         "
         style={{
@@ -208,13 +207,6 @@ export function ProjectCard({ p }) {
             >
               <HiArrowTopRightOnSquare className="text-sm" />
               Live Demo
-            </a>
-            <a
-              href={p.github} target="_blank" rel="noopener noreferrer"
-              className="flex-1 py-[10px] bg-white/5 text-ink text-[13px] font-semibold rounded-lg border border-white/12 flex items-center justify-center gap-1.5 transition-all duration-200 hover:border-white/25 hover:bg-white/8"
-            >
-              <SiGithub className="text-sm" />
-              GitHub
             </a>
           </div>
         </div>

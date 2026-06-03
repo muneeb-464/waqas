@@ -60,18 +60,7 @@ const jobs = [
       'Provided mentorship in MERN Stack, JavaScript, React.js, Node.js, Express.js, and MongoDB.',
       'Helped students build portfolio projects and prepare for professional software development roles.',
     ],
-  },
-  {
-    role: 'QA Engineer',
-    company: 'Masood Textile Mills',
-    location: 'Pakistan',
-    date: '2019 – 2022',
-    bullets: [
-      'Conducted staff training sessions on quality control procedures and internal software usage.',
-      'Performed software testing and quality assurance for enterprise textile systems.',
-      'Improved bug detection efficiency by up to 80% through structured testing processes.',
-    ],
-  },
+  }
 ]
 
 function JobCard({ job, side }) {
