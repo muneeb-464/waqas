@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ruby: #3B82F6;
+  --color-ruby: #FACC15;
   --color-surface: #0A0A0A;
   --color-surface-raised: #111111;
   --color-card: #141414;
@@ -26,14 +26,14 @@ body {
 
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: #0A0A0A; }
-::-webkit-scrollbar-thumb { background: #3B82F6; border-radius: 2px; }
+::-webkit-scrollbar-thumb { background: #FACC15; border-radius: 2px; }
 
 a { text-decoration: none; color: inherit; }
 button { cursor: pointer; font-family: inherit; }
 img { max-width: 100%; }
 
 .ruby-grad {
-  background: linear-gradient(90deg, #1D4ED8 0%, #2563EB 40%, #3B82F6 70%, #93C5FD 100%);
+  background: linear-gradient(90deg, #A16207 0%, #CA8A04 40%, #FACC15 70%, #FEF08A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
