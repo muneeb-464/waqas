@@ -205,7 +205,7 @@ export function ProjectCard({ p }) {
   href={p.live}
   target="_blank"
   rel="noopener noreferrer"
-  className="flex-1 py-[10px] bg-ruby text-green-500 text-[13px] font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-opacity duration-200 hover:opacity-85"
+  className="flex-1 py-[10px] bg-ruby text-black text-[13px] font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-opacity duration-200 hover:opacity-85"
 >
   <HiArrowTopRightOnSquare className="text-sm" />
   Live Demo
