@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
-import profilePhoto from '../assets/profile.jpg'
+import profilePhoto from '../assets/profile.png'
 import { useState, useEffect, useRef } from 'react'
 
 const aboutText =
-  "I'm Waseem Sajjad, a Full-Stack Developer and Computer Science Teacher with a passion for building high-performance web applications and educating the next generation of developers. I teach at Dean's Shiblee College, where I mentor students in programming, web development, and software engineering fundamentals. My technical stack spans React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, Firebase, and Tailwind CSS — always focused on clean architecture, performance, and exceptional user experience."
+  "I'm Waqas, a Full-Stack Developer and Computer Science Teacher with a passion for building high-performance web applications and educating the next generation of developers. I teach at Dean's Shiblee College, where I mentor students in programming, web development, and software engineering fundamentals. My technical stack spans React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, Firebase, and Tailwind CSS — always focused on clean architecture, performance, and exceptional user experience."
 
 const stats = [
   { value: '5+',  label: 'Years Experience' },
@@ -114,11 +114,11 @@ export default function About() {
                 transition: 'transform 0.12s ease, box-shadow 0.4s ease, filter 0.5s ease',
                 filter: hovered ? 'grayscale(0%) brightness(1)' : 'grayscale(100%) brightness(1.15)',
                 boxShadow: hovered
-                  ? '0 32px 80px rgba(59,130,246,0.25), 0 0 0 1px rgba(59,130,246,0.2)'
+                  ? '0 32px 80px rgba(250,204,21,0.25), 0 0 0 1px rgba(250,204,21,0.2)'
                   : '0 32px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.06)',
               }}
             >
-              <img src={profilePhoto} alt="Waseem Sajjad" className="w-full h-full object-cover" />
+              <img src={profilePhoto} alt="Waqas" className="w-full h-full object-cover" />
 
               {/* White overlay — fades out on hover */}
               <div
