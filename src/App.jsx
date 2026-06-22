@@ -32,7 +32,7 @@ function GlobalGlow() {
     <div
       className="fixed inset-0 pointer-events-none z-0"
       style={{
-        background: 'radial-gradient(ellipse 80% 70% at 50% 50%, rgba(59,130,246,0.18) 0%, rgba(59,130,246,0.08) 40%, rgba(59,130,246,0.03) 65%, transparent 85%)',
+        background: 'radial-gradient(ellipse 80% 70% at 50% 50%, rgba(250,204,21,0.18) 0%, rgba(250,204,21,0.08) 40%, rgba(250,204,21,0.03) 65%, transparent 85%)',
       }}
     />
   )
