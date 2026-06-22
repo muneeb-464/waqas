@@ -37,18 +37,6 @@ const jobs = [
     ],
   },
   {
-    role: 'Teacher',
-    company: "Virtual University of Pakistan",
-    location: 'Pakistan',
-    date: '2022 – Present',
-    bullets: [
-      'Teaching computer science and programming subjects to undergraduate students.',
-      'Developing structured curricula covering web development, algorithms, software engineering, and modern development practices.',
-      'Mentoring students on academic and professional growth in the technology field.',
-      'Preparing students for real-world software development careers.',
-    ],
-  },
-  {
     role: 'Programming Instructor',
     company: 'Preply',
     location: 'Remote',
@@ -68,12 +56,12 @@ function JobCard({ job, side }) {
     <div className="
       group relative bg-[rgba(18,18,18,0.85)] border border-white/8 rounded-2xl p-6
       backdrop-blur-md overflow-hidden transition-all duration-500
-      hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(59,130,246,0.14)]
+      hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(250,204,21,0.14)]
       before:content-[''] before:absolute before:top-0 before:right-0 before:w-52 before:h-52
-      before:bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.22),transparent_65%)]
+      before:bg-[radial-gradient(circle_at_top_right,rgba(250,204,21,0.22),transparent_65%)]
       before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:pointer-events-none
       after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-52 after:h-52
-      after:bg-[radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.22),transparent_65%)]
+      after:bg-[radial-gradient(circle_at_bottom_left,rgba(250,204,21,0.22),transparent_65%)]
       after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500 after:pointer-events-none
     ">
       {/* Connector arrow */}
@@ -183,7 +171,7 @@ export default function Experience() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true, amount: 0.5 }}
                         transition={{ duration: 0.45, ease: 'backOut', delay: 0.15 }}
-                        className="w-[42px] h-[42px] rounded-xl bg-ruby/15 border border-ruby/30 flex items-center justify-center shadow-[0_0_18px_rgba(59,130,246,0.35)] z-10 flex-shrink-0"
+                        className="w-[42px] h-[42px] rounded-xl bg-ruby/15 border border-ruby/30 flex items-center justify-center shadow-[0_0_18px_rgba(250,204,21,0.35)] z-10 flex-shrink-0"
                       >
                         <FaBriefcase className="text-ruby text-[15px]" />
                       </motion.div>
@@ -217,7 +205,7 @@ export default function Experience() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true, amount: 0.5 }}
                         transition={{ duration: 0.45, ease: 'backOut' }}
-                        className="w-[38px] h-[38px] rounded-xl bg-ruby/15 border border-ruby/30 flex items-center justify-center shadow-[0_0_14px_rgba(59,130,246,0.3)] z-10"
+                        className="w-[38px] h-[38px] rounded-xl bg-ruby/15 border border-ruby/30 flex items-center justify-center shadow-[0_0_14px_rgba(250,204,21,0.3)] z-10"
                       >
                         <FaBriefcase className="text-ruby text-[13px]" />
                       </motion.div>
