@@ -23,7 +23,7 @@ export const projects = [
     description: "Fiverr sellers often guess at keywords, costing them search visibility. This automated tool applies a custom ranking formula to surface high-opportunity, low-competition keywords — giving freelancers a data-driven edge when optimizing their gigs. Built after identifying a gap in existing tools that don't account for Fiverr-specific search dynamics.",
     tags: ['JavaScript', 'Node.js', 'Automation', 'Custom Ranking Algorithm'],
     image: project9,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://keyword-research-for-fiverr-t44w.vercel.app/',
     github: 'https://github.com/muneeb-464/keyword-research',
   },
@@ -33,7 +33,7 @@ export const projects = [
     description: 'DealFlow is a modern sales pipeline and deal management platform built to help teams track, manage, and close deals efficiently. The platform provides real-time deal tracking, stage management, and team collaboration tools — giving sales professionals full visibility over their pipeline.',
     tags: ['React.js', 'TailwindCSS', 'Firebase', 'Vercel'],
     image: project8,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://dealflow-v1.vercel.app',
     github: 'https://github.com/muneeb-464/Dealflow',
   },
@@ -43,7 +43,7 @@ export const projects = [
     description: 'Data Vault is a user categories data management system designed to securely store and manage user information based on specific categories. The platform emphasizes data privacy and security, ensuring that sensitive user data is protected while providing efficient tools for categorization and retrieval.',
     tags: ['React.js', 'TypeScript', 'TailwindCSS', 'Supabase' ,'Google Auth'],
     image: project7,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://data-vault-drab.vercel.app/',
     github: 'https://github.com/muneeb-464/Data-Vault',
   },
@@ -54,7 +54,7 @@ export const projects = [
     description: 'Displine is a comprehensive user maintenance and daily goals dashboard designed to help individuals stay organized, motivated, and on track with their personal and professional objectives. The platform emphasizes security and privacy, ensuring that users can manage their tasks and goals with confidence.',
     tags: ['React', 'TypeScript', 'Node.js', 'TailwindCSS', 'MongoDB'],
     image: project6,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://displineos-v1.vercel.app/',
     github: 'https://github.com/muneeb-464/Displineos-V1',
   },
@@ -64,7 +64,7 @@ export const projects = [
     description: 'Elite Alps operates in the luxury travel and hospitality industry, offering premium chalet rentals, concierge services, and curated alpine experiences across top destinations like the French Alps. ',
     tags: ['Next.js', 'TypeScript', 'TailwindCSS', 'Supabase'],
     image: project1,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://elitealps.com/',
     github: '#',
   },
@@ -74,7 +74,7 @@ export const projects = [
     description: 'This App represents a modern media production portfolio, where clients can explore previous work in photography and videography. It showcases high-quality visual projects, helping clients understand the brand’s creative capabilities and style.',
     tags: ['React', 'TailwindCSS', 'Vercel'],
     image: project2,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://courchevelmedia.com/',
     github: '#',
   },
@@ -84,7 +84,7 @@ export const projects = [
     description: 'An advanced video automation and project management suite designed for content creators and remote teams. The platform utilizes AI-driven logic to automatically prioritize video production tasks, suggest realistic deadlines, and identify workflow bottlenecks.',
     tags: ['React.js', 'Firebase', 'Strip', 'TailwindCSS', 'Cloud Functions'],
     image: project4,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://videospark.site/',
     github: '#',
   },
@@ -94,7 +94,7 @@ export const projects = [
     description: 'A comprehensive cleaning service ecosystem that allows users to pre-book specialized sessions with transparent, real-time service charge calculation. The platform provides a highly customized user experience where service costs are dynamically generated based on house size and specific requirements.',
     tags: ['React.js', 'TailwindCSS', 'MaterialUI' , "Netlify"],
     image: project3,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: '#',
     github: '#',
   },
@@ -106,7 +106,7 @@ export const projects = [
     description: 'A specialized CRM designed for real estate professionals to securely capture and manage client information during open house events. The platform emphasizes data privacy and security, ensuring that sensitive client details are protected while providing tools for efficient lead management and follow-up.',
     tags: ['React', 'Firebase', 'Tailwind', 'Node.js'],
     image: project5,
-    accent: '#E63946',
+    accent: '#FACC15',
     live: 'https://contranrealtor.net/',
     github: 'https://github.com/muneeb-464/Con-tran-final',
   },
@@ -149,12 +149,12 @@ export function ProjectCard({ p }) {
         className="
           group relative bg-[rgba(18,18,18,0.85)] border border-white/8 rounded-3xl overflow-hidden
           backdrop-blur-md flex flex-col h-full
-          hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(59,130,246,0.18)]
+          hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(250,204,21,0.18)]
           before:content-[''] before:absolute before:top-0 before:right-0 before:w-56 before:h-56
-          before:bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.22),transparent_65%)]
+          before:bg-[radial-gradient(circle_at_top_right,rgba(250,204,21,0.22),transparent_65%)]
           before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:pointer-events-none before:z-10
           after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-56 after:h-56
-          after:bg-[radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.22),transparent_65%)]
+          after:bg-[radial-gradient(circle_at_bottom_left,rgba(250,204,21,0.22),transparent_65%)]
           after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500 after:pointer-events-none after:z-10
         "
         style={{
@@ -194,20 +194,22 @@ export function ProjectCard({ p }) {
                 className="group/tag relative inline-flex text-[11px] font-semibold py-1 px-2.5 rounded-full border border-ruby/25 tracking-[0.04em] overflow-hidden cursor-default"
               >
                 <span className="absolute inset-0 bg-ruby -translate-x-full group-hover/tag:translate-x-0 transition-transform duration-300 ease-out rounded-full" />
-                <span className="relative z-10 text-ruby group-hover/tag:text-white transition-colors duration-200">{tag}</span>
+                <span className="relative z-10 text-ruby group-hover/tag:text-black transition-colors duration-200">{tag}</span>
               </span>
             ))}
           </div>
 
           {/* Buttons */}
           <div className="flex gap-2.5 mt-1">
-            <a
-              href={p.live} target="_blank" rel="noopener noreferrer"
-              className="flex-1 py-[10px] bg-ruby text-white text-[13px] font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-opacity duration-200 hover:opacity-85"
-            >
-              <HiArrowTopRightOnSquare className="text-sm" />
-              Live Demo
-            </a>
+        <a
+  href={p.live}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex-1 py-[10px] bg-ruby text-green-500 text-[13px] font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-opacity duration-200 hover:opacity-85"
+>
+  <HiArrowTopRightOnSquare className="text-sm" />
+  Live Demo
+</a>
           </div>
         </div>
       </div>

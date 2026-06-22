@@ -34,12 +34,12 @@ function SkillCard({ name, icon: Icon, color, category }) {
       bg-[rgba(18,18,18,0.85)] border border-white/8 rounded-2xl py-5 px-4
       flex flex-col items-center gap-2 backdrop-blur-md mx-2 cursor-default
       overflow-hidden transition-all duration-500
-      hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(59,130,246,0.14)]
+      hover:border-ruby/30 hover:shadow-[0_8px_48px_rgba(250,204,21,0.14)]
       before:content-[''] before:absolute before:top-0 before:right-0 before:w-36 before:h-36
-      before:bg-[radial-gradient(circle_at_top_right,rgba(59,130,246,0.22),transparent_65%)]
+      before:bg-[radial-gradient(circle_at_top_right,rgba(250,204,21,0.22),transparent_65%)]
       before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500 before:pointer-events-none
       after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-36 after:h-36
-      after:bg-[radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.22),transparent_65%)]
+      after:bg-[radial-gradient(circle_at_bottom_left,rgba(250,204,21,0.22),transparent_65%)]
       after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500 after:pointer-events-none
     ">
       <Icon style={{ fontSize: 30, color }} className="relative z-10" />
@@ -86,7 +86,7 @@ export default function Skills() {
       {/* Background glow */}
       <div
         className="absolute inset-0 pointer-events-none"
-        style={{ background: 'radial-gradient(ellipse 70% 50% at 50% 50%, rgba(59,130,246,0.07) 0%, transparent 70%)' }}
+        style={{ background: 'radial-gradient(ellipse 70% 50% at 50% 50%, rgba(250,204,21,0.07) 0%, transparent 70%)' }}
       />
 
       <div className="relative">

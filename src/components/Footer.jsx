@@ -34,11 +34,11 @@ export default function Footer() {
           <div>
             <p className="text-[11px] font-semibold text-gray-600 uppercase tracking-[0.1em] mb-5 mt-0">Connect</p>
             <div className="flex flex-col gap-2.5">
-              <a href="mailto:mwaseeemsajjad@gmail.com" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
-                mwaseeemsajjad@gmail.com
+              <a href="mailto:chistwaqas@gmail.com" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
+                chistwaqas@gmail.com
               </a>
-              <a href="tel:+923064398868" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
-                0306-4398868
+              <a href="tel:+923036310002" className="text-sm text-gray-500 transition-colors duration-200 hover:text-ruby">
+                0303-6310002
               </a>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-white/6 pt-7 flex justify-between items-center flex-wrap gap-3">
-          <span className="text-[13px] text-gray-700">© 2026 Wassem Sajad. All rights reserved.</span>
+          <span className="text-[13px] text-gray-700">© 2026 Waqas. All rights reserved.</span>
           <span className="text-[13px] text-gray-700 flex items-center gap-1">
             Made with <span className="text-ruby">♥</span> in Pakistan
           </span>

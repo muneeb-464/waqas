@@ -1,17 +1,16 @@
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import resumePdf from '../assets/Resume.docx.pdf'
 
 const codeLines = [
   { tokens: [{ t: 'const ', c: '#C084FC' }, { t: 'developer', c: '#E3E2E2' }, { t: ' = {', c: '#E3E2E2' }] },
-  { tokens: [{ t: '  name', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: '"Wassem Sajjad"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
+  { tokens: [{ t: '  name', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: '"Waqas"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
   { tokens: [{ t: '  focus', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: '"FullStack Mastery"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
   { tokens: [{ t: '  skills', c: '#60A5FA' }, { t: ': [', c: '#E3E2E2' }] },
   { tokens: [{ t: '    ', c: '#E3E2E2' }, { t: '"React.js"', c: '#86EFAC' }, { t: ', ', c: '#E3E2E2' }, { t: '"Next.js"', c: '#86EFAC' }, { t: ',', c: '#E3E2E2' }] },
   { tokens: [{ t: '    ', c: '#E3E2E2' }, { t: '"Express.js"', c: '#86EFAC' }, { t: ', ', c: '#E3E2E2' }, { t: '"Node.js"', c: '#86EFAC' },  { t: ',', c: '#E3E2E2' }] },
   { tokens: [{ t: '    ', c: '#E3E2E2' }, { t: '"MongoDB"', c: '#86EFAC' }] },
   { tokens: [{ t: '  ],', c: '#E3E2E2' }] },
-  { tokens: [{ t: '  passionate', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: 'true', c: '#3B82F6' }, { t: ',', c: '#E3E2E2' }] },
+  { tokens: [{ t: '  passionate', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: 'true', c: '#FACC15' }, { t: ',', c: '#E3E2E2' }] },
   { tokens: [{ t: '  motto', c: '#60A5FA' }, { t: ': ', c: '#E3E2E2' }, { t: '"Build with Purpose"', c: '#86EFAC' }] },
   { tokens: [{ t: '};', c: '#E3E2E2' }] },
   { tokens: [] },
@@ -70,7 +69,7 @@ export default function Hero() {
               variants={fadeUp}
               className="text-base text-gray-400 leading-[1.7] m-0 max-w-[460px]"
             >
-              I'm <strong className="text-ink">Wassem Sajjad</strong>, a professional{' '}
+              I'm <strong className="text-ink">Waqas</strong>, a professional{' '}
 
               <span className="inline-block align-bottom">
                 <motion.span
@@ -102,12 +101,6 @@ export default function Hero() {
                   Let's Collaborate ↗
                 </span>
               </a>
-              <a
-                href={resumePdf} target="_blank" rel="noopener noreferrer" download="Munib_Sajjad_Resume.pdf"
-                className="px-7 py-[13px] bg-white/5 text-ink font-semibold text-sm rounded-lg border border-white/15 inline-flex items-center gap-2 transition-all duration-300 hover:border-ruby/40 hover:bg-ruby/8"
-              >
-                Get Resume ↑
-              </a>
             </motion.div>
           </motion.div>
 
@@ -120,7 +113,7 @@ export default function Hero() {
             style={{ perspective: '1000px' }}
           >
             <div
-              className="relative bg-[rgba(14,14,14,0.85)] border border-white/8 rounded-2xl overflow-hidden backdrop-blur-lg shadow-[0_24px_64px_rgba(0,0,0,0.5)] transition-shadow duration-300 hover:shadow-[0_32px_80px_rgba(59,130,246,0.18),0_0_0_1px_rgba(59,130,246,0.12)]"
+              className="relative bg-[rgba(14,14,14,0.85)] border border-white/8 rounded-2xl overflow-hidden backdrop-blur-lg shadow-[0_24px_64px_rgba(0,0,0,0.5)] transition-shadow duration-300 hover:shadow-[0_32px_80px_rgba(250,204,21,0.18),0_0_0_1px_rgba(250,204,21,0.12)]"
               style={{
                 transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
                 transition: 'transform 0.12s ease, box-shadow 0.3s ease',
@@ -136,7 +129,7 @@ export default function Hero() {
                 <span className="w-3 h-3 rounded-full bg-[#FF5F57]" />
                 <span className="w-3 h-3 rounded-full bg-[#874242]" />
                 <span className="w-3 h-3 rounded-full bg-[#442E2E]" />
-                <span className="text-xs text-gray-600 ml-2">dev/Wassem.ts</span>
+                <span className="text-xs text-gray-600 ml-2">dev/Waqas.ts</span>
               </div>
 
               {/* Code */}
