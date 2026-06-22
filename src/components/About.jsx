@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import profilePhoto from '../assets/profile.png'
+import profilePhoto from '../assets/Profile.png'
 import { useState, useEffect, useRef } from 'react'
 
 const aboutText =
