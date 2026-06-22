@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 import { HiEnvelope, HiPhone, HiMapPin } from 'react-icons/hi2'
 
 const directContact = [
-  { icon: HiEnvelope, label: 'Email',    value: 'mwaseeemsajjad@gmail.com', href: 'mailto:mwaseeemsajjad@gmail.com' },
-  { icon: HiPhone,    label: 'Phone',    value: '0306-4398868',            href: 'tel:+923064398868'              },
+  { icon: HiEnvelope, label: 'Email',    value: 'chistwaqas@gmail.com', href: 'mailto:chistwaqas@gmail.com' },
+  { icon: HiPhone,    label: 'Phone',    value: '0303-6310002',         href: 'tel:+923036310002'           },
   { icon: HiMapPin,   label: 'Location', value: 'Faisalabad, Pakistan',    href: null                             },
 ]
 
@@ -91,7 +91,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className={`py-[14px] px-8 font-semibold text-sm rounded-lg border-none flex items-center justify-center gap-2 transition-all duration-300 ${sent ? 'bg-green-500 shadow-[0_0_24px_rgba(34,197,94,0.3)]' : 'bg-ruby shadow-[0_0_24px_rgba(59,130,246,0.25)] hover:shadow-[0_0_40px_rgba(59,130,246,0.45)] hover:-translate-y-px'} text-white`}
+                className={`py-[14px] px-8 font-semibold text-sm rounded-lg border-none flex items-center justify-center gap-2 transition-all duration-300 ${sent ? 'bg-green-500 shadow-[0_0_24px_rgba(34,197,94,0.3)]' : 'bg-ruby shadow-[0_0_24px_rgba(250,204,21,0.25)] hover:shadow-[0_0_40px_rgba(250,204,21,0.45)] hover:-translate-y-px'} text-black`}
               >
                 {sent ? '✓ Message Sent!' : 'Send Message →'}
               </button>
